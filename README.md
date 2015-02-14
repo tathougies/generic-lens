@@ -23,7 +23,7 @@ Now you can do things like:
 
 You can also define the lenses at the top of your module as expected
 
-    > Employee (LensFor name) (LensFor age) = lenses
+    Employee (LensFor name) (LensFor age) = lenses
 
 The generated lenses have the correct polymorphic van Laarhoven type:
 
