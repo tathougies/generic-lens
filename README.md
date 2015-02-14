@@ -28,6 +28,6 @@ You can also define the lenses at the top of your module as expected
 The generated lenses have the correct polymorphic van Laarhoven type:
 
     > :type name
-    > name
-    >  :: Functor f =>
-    >     (t String -> f (t String)) -> Employee t -> f (Employee t)
+    name
+      :: Functor f =>
+         (t String -> f (t String)) -> Employee t -> f (Employee t)
